@@ -1,0 +1,9 @@
+{
+  "name": "autofix-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "^8.2.1"
+  }
+}
