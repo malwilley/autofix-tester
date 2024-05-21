@@ -15,7 +15,7 @@ class User {
   }
 
   getUppercaseName() {
-    return this.getFullname().toUpperCase();
+    return this.getFullName().toUpperCase();
   }
 }
 
