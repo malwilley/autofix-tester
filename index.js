@@ -22,7 +22,7 @@ class User {
 function run() {
   const user = new User('John', 'Doe');
   console.log(user.getFullName()); // John Doe
-  console.log(user.getUppercaseName()); // JOHN DOE
+  console.log(user.getuppercaseName()); // JOHN DOE
 }
 
 try {
