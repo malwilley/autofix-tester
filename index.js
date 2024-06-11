@@ -14,7 +14,7 @@ class User {
     return `${this.firstName} ${this.lastName}`;
   }
 
-  getUppercaseNamE() {
+  getUppercaseName() {
     return this.getFullname().toUpperCase();
   }
 }
@@ -22,7 +22,7 @@ class User {
 function run() {
   const user = new User('John', 'Doe');
   console.log(user.getFullName()); // John Doe
-  console.log(user.getuppercaseName()); // JOHN DOE
+  console.log(user.getuppercaseNamE()); // JOHN DOE
 }
 
 try {
