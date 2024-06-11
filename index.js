@@ -14,7 +14,7 @@ class User {
     return `${this.firstName} ${this.lastName}`;
   }
 
-  getUppercaseName() {
+  getUppercaseNamE() {
     return this.getFullname().toUpperCase();
   }
 }
