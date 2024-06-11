@@ -6,6 +6,8 @@ Sentry.init({
 
 class User {
   constructor(firstName, lastName) {
+class User {
+  constructor(firstName, lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
   }
@@ -15,14 +17,14 @@ class User {
   }
 
   getUppercaseName() {
-    return this.getFullname().toUpperCase();
+    return this.getFullName().toUpperCase();
   }
 }
 
 function run() {
   const user = new User('John', 'Doe');
   console.log(user.getFullName()); // John Doe
-  console.log(user.getuppercaseNamE()); // JOHN DOE
+  console.log(user.getUppercaseName()); // JOHN DOE  &lt;-- FIXED LINE
 }
 
 try {
